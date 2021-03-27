@@ -1,0 +1,185 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "source",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "source/mainwindow",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "source/mainwindow"
+				},
+				{
+					"build" : "source/subwindows",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "source/subwindows"
+				},
+				{
+					"build" : "source/widgets",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "source/widgets"
+				},
+				{
+					"build" : "source/lang",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "source/lang"
+				},
+				{
+					"build" : "source/utilities",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "source/utilities",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "Chariotte",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Chariotte::@411ffd8adc737496fe19",
+					"jsonFile" : "target-Chariotte-Debug-f5e598f95cc1cc3718f1.json",
+					"name" : "Chariotte",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Chariotte_autogen::@411ffd8adc737496fe19",
+					"jsonFile" : "target-Chariotte_autogen-Debug-9a1e258cb901ed842c80.json",
+					"name" : "Chariotte_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Chariotte_autogen_timestamp_deps::@411ffd8adc737496fe19",
+					"jsonFile" : "target-Chariotte_autogen_timestamp_deps-Debug-b2348a6d302de774c07c.json",
+					"name" : "Chariotte_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "chariotte_utils::@aec506b069dde8a81bc0",
+					"jsonFile" : "target-chariotte_utils-Debug-f9efcf1d88980b7fbb64.json",
+					"name" : "chariotte_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "chariotte_utils_autogen::@aec506b069dde8a81bc0",
+					"jsonFile" : "target-chariotte_utils_autogen-Debug-2a90da8887c29e27b7f1.json",
+					"name" : "chariotte_utils_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "chariotte_utils_autogen_timestamp_deps::@aec506b069dde8a81bc0",
+					"jsonFile" : "target-chariotte_utils_autogen_timestamp_deps-Debug-5e88aa369569789b4f24.json",
+					"name" : "chariotte_utils_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug",
+		"source" : "/home/gentoo/Prog/cpp/GUI/qt/Chariotte"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/Chariotte_autogen/mocs_compilation.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/source/Chariotte_autogen/mocs_compilation.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/source/Chariotte_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/main.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/main.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/main.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/mainwindow/log.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow/log.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow/log.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/mainwindow/mainwindow.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow/mainwindow.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow/mainwindow.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/subwindows/popupabout.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupabout.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupabout.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/subwindows/popupeditingredient.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupeditingredient.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupeditingredient.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/subwindows/popupsysinfo.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupsysinfo.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupsysinfo.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/widgets/basicpopup.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/basicpopup.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/basicpopup.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/widgets/blinkablepushbutton.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/blinkablepushbutton.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/blinkablepushbutton.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/widgets/interactivelabel.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/interactivelabel.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/interactivelabel.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/widgets/statuslabel.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/statuslabel.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/statuslabel.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Isource -I../source -Isource/Chariotte_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -O3 -DNDEBUG -fPIC -std=gnu++17 -o source/CMakeFiles/Chariotte.dir/qrc_main_rc.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/source/qrc_main_rc.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/source/qrc_main_rc.cpp"
+},
+{
+  "directory": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build",
+  "command": "/usr/bin/c++ -Isource/utilities -I../source/utilities -Isource/utilities/chariotte_utils_autogen/include -I../source/mainwindow -I../source/subwindows -I../source/rc -O3 -DNDEBUG -std=gnu++17 -o source/utilities/CMakeFiles/chariotte_utils.dir/chariotte_utils_autogen/mocs_compilation.cpp.o -c /home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/source/utilities/chariotte_utils_autogen/mocs_compilation.cpp",
+  "file": "/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/source/utilities/chariotte_utils_autogen/mocs_compilation.cpp"
+}
+]

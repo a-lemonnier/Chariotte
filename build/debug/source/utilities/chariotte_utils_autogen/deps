@@ -1,0 +1,5 @@
+chariotte_utils_autogen/timestamp: \
+	/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/utilities/CMakeLists.txt \
+	/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/utilities/chariotte_utils.h \
+	/usr/local/share/qtcreator/package-manager/auto-setup.cmake \
+	/usr/bin/cmake

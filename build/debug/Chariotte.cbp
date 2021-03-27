@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chariotte"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\usr\local\share\qtcreator\;CMake Files\..\..\..\..\..\..\..\usr\local\share\qtcreator\package-manager\;CMake Files\..\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5LinguistTools\;CMake Files\source\;CMake Files\source\mainwindow\;CMake Files\source\subwindows\;CMake Files\source\widgets\;CMake Files\source\lang\;CMake Files\source\utilities\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v all"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v rebuild_cache"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v edit_cache"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chariotte">
+				<Option output="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/Chariotte" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/Chariotte_autogen/include"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/rc"/>
+					<Add directory="/usr/include/qt5"/>
+					<Add directory="/usr/include/qt5/QtWidgets"/>
+					<Add directory="/usr/include/qt5/QtGui"/>
+					<Add directory="/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/lib64/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v Chariotte"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chariotte/fast">
+				<Option output="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/Chariotte" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/Chariotte_autogen/include"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/rc"/>
+					<Add directory="/usr/include/qt5"/>
+					<Add directory="/usr/include/qt5/QtWidgets"/>
+					<Add directory="/usr/include/qt5/QtGui"/>
+					<Add directory="/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/lib64/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v Chariotte/fast"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chariotte_autogen_timestamp_deps">
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v Chariotte_autogen_timestamp_deps"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chariotte_autogen">
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v Chariotte_autogen"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chariotte_utils">
+				<Option output="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities/libchariotte_utils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/utilities"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities/chariotte_utils_autogen/include"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/rc"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v chariotte_utils"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chariotte_utils/fast">
+				<Option output="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities/libchariotte_utils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/utilities"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities/chariotte_utils_autogen/include"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows"/>
+					<Add directory="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/rc"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/g++-v10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v chariotte_utils/fast"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chariotte_utils_autogen_timestamp_deps">
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v chariotte_utils_autogen_timestamp_deps"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chariotte_utils_autogen">
+				<Option working_dir="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v chariotte_utils_autogen"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/Chariotte_autogen/mocs_compilation.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/Chariotte_autogen/timestamp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/Chariotte_autogen/timestamp.rule">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/Chariotte_fr_FR.qm">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/Chariotte_fr_FR.qm.rule">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/qrc_main_rc.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities/chariotte_utils_autogen/mocs_compilation.cpp">
+			<Option target="chariotte_utils"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities/chariotte_utils_autogen/timestamp">
+			<Option target="chariotte_utils"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/build/debug/source/utilities/chariotte_utils_autogen/timestamp.rule">
+			<Option target="chariotte_utils"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/lang/Chariotte_fr_FR.ts.rule">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/main.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/main_rc.qrc">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow/log.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow/log.h">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow/mainwindow.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow/mainwindow.h">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupabout.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupabout.h">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupeditingredient.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupeditingredient.h">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupsysinfo.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/popupsysinfo.h">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/utilities/chariotte_utils.h">
+			<Option target="chariotte_utils"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/basicpopup.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/basicpopup.h">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/blinkablepushbutton.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/blinkablepushbutton.h">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/interactivelabel.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/interactivelabel.h">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/popupsysinfo.h">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/statuslabel.cpp">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/statuslabel.h">
+			<Option target="Chariotte"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/local/share/qtcreator/package-manager/auto-setup.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\qtcreator\package-manager\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QBB10StylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QCleanlooksStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QGtk2StylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QMotifStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QPlastiqueStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk2ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/../../../../../../../usr/lib64/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/main_rc.qrc">
+			<Option virtualFolder="CMake Files\source\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/mainwindow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\mainwindow\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/subwindows/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\subwindows\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/widgets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\widgets\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/lang/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lang\"/>
+		</Unit>
+		<Unit filename="/home/gentoo/Prog/cpp/GUI/qt/Chariotte/source/utilities/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\utilities\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
